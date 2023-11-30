@@ -1,0 +1,7 @@
+-Ta có 1 chu trình lẻ như sau: 1-2-3-4-5-1
+Nếu cho đỉnh 1 là màu đen, 2 sẽ phải là đỉnh trắng, 3 là đỉnh đen,... xen kẽ như vậy thì đỉnh 5 sẽ là màu đen
+Ta thấy ở cạnh 5-1 là 2 màu đen vậy nên nếu đồ thị có chu trình lẻ thì nó không phải đồ thị bipartite
+-Nếu đồ thị là bipartite thì không có chu trình lẻ
+Dễ thấy qua 1 đồ thị có chu trình sau: 1-2-3-4-5-6-1
+Nếu cho đỉnh 1 là màu đen, 2 sẽ phải là đỉnh trắng, 3 là đỉnh đen,... xen kẽ như vậy thì đỉnh 6 sẽ là màu trắng
+Ta thấy các cạnh được xen kẽ trắng đen với nhau nên nếu đồ thị là bipartite thì không có chu trình lẻ

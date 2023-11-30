@@ -1,0 +1,6 @@
+Input đầu vào được biểu diễn theo danh sách cạnh
+Ta chuyển đồ thị thành biểu diễn theo ma trận kề a
+Cho biến cnt=0,
+Duyệt ma trận kề đó:
+	Nếu tại vị trí i, j(a[i][j]) có giá trị > 1 thì ta sẽ cộng dồn vào cnt(cnt += a[i][j] - 1) trừ thêm 1 vì đó là cạnh cho các cạnh khác song song
+Sau khi duyệt xong thì cnt chính là số cạnh song song của đồ thị  

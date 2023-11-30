@@ -1,0 +1,6 @@
+Đầu tiên, chúng ta khởi tạo một mảng components để lưu trữ các thành phần liên thông mạnh.
+Sau đó, chúng ta duyệt qua tất cả các đỉnh trong đồ thị.
+Đối với mỗi đỉnh v, chúng ta tính thành phần liên thông mạnh chứa đỉnh v và thêm thành phần liên thông mạnh đó vào mảng components.
+Thuật toán này có độ phức tạp bậc hai, vì chúng ta cần duyệt qua tất cả các đỉnh trong đồ thị hai lần.
+
+Với cách tìm thành phần liên thông thì ta sẽ sử dụng thuật toán DFS để cập nhật mảng visited

@@ -1,0 +1,4 @@
+-Tập cạnh đầu tiên không là chu trình euler vì toàn bộ đỉnh của nó có bậc lẻ, cũng không là chu trình hamilton vì toàn bộ đỉnh của nó có số bậc nhỏ hơn n/2(=5)
+-Tập cạnh thứ 2 là chu trình euler vì toàn bộ đỉnh của nó có bậc chẵn, không là chu trình hamilton vì toàn bộ đỉnh của nó có số bậc nhỏ hơn n/2(=5)
+-Tập cạnh thứ 3 không là chu trình euler vì toàn bộ đỉnh của nó có bậc lẻ, không là chu trình hamilton vì toàn bộ đỉnh của nó có số bậc nhỏ hơn n/2(=5)
+-Tập cạnh thứ 4 không là chu trình euler vì toàn bộ đỉnh của nó có bậc lẻ, cũng không là chu trình hamilton vì toàn bộ đỉnh của nó có số bậc nhỏ hơn n/2(=5)

@@ -1,0 +1,3 @@
+Giả sử G là một đồ thị không có điểm articulation. Chọn hai đỉnh bất kỳ s và t trong đồ thị và xét một đường đi P từ s đến t trong G.
+Nếu P không có bất kỳ đỉnh articulation nào, ta đã tìm được hai đường đi không giao nhau nối s và t, và do đó, G là đồ thị biconnected.
+Nếu P chứa ít nhất một đỉnh articulation (gọi là v) trên đường đi, xóa v khỏi đồ thị G. Do v là một điểm articulation, việc xóa nó sẽ làm cho G mất tính liên thông. Tuy nhiên, đường đi P vẫn tồn tại sau khi xóa v, bởi vì đường đi P nối các đỉnh s và t. Điều này chứng tỏ rằng có ít nhất hai đường đi khác nhau từ s đến t (một qua v và một không qua v). Do đó, G vẫn là đồ thị biconnected.
