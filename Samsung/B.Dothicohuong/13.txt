@@ -1,0 +1,5 @@
+Ta có số cạnh của đồ thị có v đỉnh là v(v-1)/2
+vì đây là đồ thị có hướng nên 1 cạnh sẽ có 2 hướng nên số cạnh là n=v(v-1)
+Chọn k từ 0 đến n cạnh ta có 1 tổng các tổ hợp chập k của n như sau:
+Có: nC0 + nC1 + nC2 +...+nCn 
+Theo nhị thức newton suy ra (1+1)^n = 2^n = 2^(v(v-1))
